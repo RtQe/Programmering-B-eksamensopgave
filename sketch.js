@@ -25,9 +25,6 @@ let alleVariabler = [upperCase, lowerCase, numbers, symbols];
 
 function setup() 
 {
-  
-  if(window.frameElement) {window.draw = () => {}; return createA(location.href, `goto here: ${location.href}`, '_blank')}
-  
   createCanvas(400, 400);
   background(r, g, b);
   
